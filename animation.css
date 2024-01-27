@@ -1,0 +1,187 @@
+
+body {
+    background-color: blanchedalmond;
+}
+#navbar {
+    margin: 30px;
+    background-color: darkorchid;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+a {
+    display: block;
+    text-align: center;
+    color: darkgreen;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+#image, #box, #text {
+    text-align: center;
+    color: darkgoldenrod;
+    text-shadow: 5px 6px 7px blue;
+    border: 2px outset;
+}
+img {
+    background-color: white;
+    padding: 100px;
+    border: 2px solid black;
+    transition: width 6s, height 6s, padding 6s;
+}
+img:hover {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+#box, #text {
+    margin-top: 25px;
+}
+button {
+    color: darkgreen;
+    background-color: yellow;
+    margin: 10px;
+}
+.hide1 {
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 32px;
+    margin-left: 25px;
+    opacity: 0;
+    transition: width 1s, opacity 1s;
+}
+.hide2 {
+    color: white;
+    background-color: blue;
+    width: 300px;
+    height: 32px;
+    margin-left: 25px;
+    opacity: 0;
+    transition: width 1s, opacity 1s;
+}
+.hide3 {
+    color: white;
+    background-color: blue;
+    width: 450px;
+    height: 32px;
+    margin-left: 25px;
+    opacity: 0;
+    transition: width 1s, opacity 1s;
+}
+.hide4 {
+    color: white;
+    background-color: blue;
+    width: 600px;
+    height: 32px;
+    margin-left: 25px;
+    opacity: 0;
+    transition: width 1s, opacity 1s;
+}
+.quarter:hover ~ .hide1 {
+    opacity: 1;
+}
+.half:hover ~ .hide2 {
+    opacity: 1;
+}
+.three:hover ~ .hide3 {
+    opacity: 1;
+}
+.full:hover ~ .hide4 {
+    opacity: 1;
+}
+@keyframes vinee {
+    0% {opacity: 0;}
+    25% {opacity: 0.25;}
+    50% {opacity: 0.5;}
+    75%  { opacity: 0.75;}
+    100% {opacity: 1;}
+    }
+    span {
+        opacity: 0;
+        color: black;
+        line-height: 50px;
+        font-family: inherit;
+        font-size: 30px;
+    }
+    .load:hover ~ .a {
+        animation-name: vinee;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+
+    }
+    .load:hover ~ .b {
+        animation-name: vinee;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+
+    }
+    .load:hover ~ .c {
+        animation-name: vinee;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+
+    }
+    .load:hover ~ .d {
+        animation-name: vinee;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+
+    }
+    .load:hover ~ .e {
+        animation-name: vinee;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+
+    }
+    .load:hover ~ .f {
+        animation-name: vinee;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+
+    }
+    .load:hover ~ .g {
+        animation-name: vinee;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+
+    }
+    .load:hover ~ .h {
+        animation-name: vinee;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+
+    }
+    .load:hover ~ .i {
+        animation-name: vinee;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+
+    }
+    .load:hover ~ .j {
+        animation-name: vinee;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+
+    }
